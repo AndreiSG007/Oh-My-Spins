@@ -152,6 +152,7 @@ body {
   .steps {
     gap: 30px;
     margin-bottom: 41px;
+    margin-left: 60px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -162,6 +163,11 @@ body {
 @media screen and (min-width: 1920px) {
   .steps {
     margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .steps {
+    margin-left: 0px;
   }
 }
 
